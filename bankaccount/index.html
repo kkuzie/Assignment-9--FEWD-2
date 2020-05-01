@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"> -->
+
+    <!-- karens css -->
+    <link rel="stylesheet" href="/bankaccount/styles.css">
+
+    <title>Assignment 8 - The Bank Account Application</title>
+</head>
+<body>
+ <main>
+<h1>KuzCredit Bank</h1><br>
+
+<!-- Within the web page, add buttons for Name, Deposit, and Withdrawal.2.    When the user clicks the Name button, a prompt should appear that allows the user to enter their name.3.    When the user clicks the Deposit button, a prompt should appear that allows the user to enter an amount to deposit.4.    When the user clicks the Withdrawal button, a prompt should appear that allows the user to enter an amount to withdrawal.5.    Add a div element that will be used to display the user’s name and their balance as they deposit and withdrawal money. -->
+
+<form id='formnamebtn'>
+<button class="btn btn-primary" id='nameBtn' type="text">Enter your name</button>
+</form>
+
+<form id="formdepbtn">
+<button class="btn btn-primary" id="depBtn" type="text">Deposit Amount</button>
+</form>
+
+<form id="formwdbtn">
+<button class="btn btn-primary" id="wdBtn" type="text">Withdrawal Amount</button>
+</form><br>
+
+<div>
+    <p>New Balance for <span id='nome'>NAME</span>: <span id='bal'>BAL</span> as of <span id='date'>DATE</span>
+    </p>
+</div>
+
+    <!-- <table class="table table-striped table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Deposits</th>
+            <th scope="col">Withdrawals</th>
+            <th scope="col">Balance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>dep amt</td>
+            <td>wd amt</td>
+            <td>bal</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>dep amt</td>
+            <td>wd amt</td>
+            <td>bal</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>dep amt</td>
+            <td>wd amt</td>
+            <td>bal</td>
+          </tr>
+        </tbody>
+      </table> -->
+    </main>
+    <script src="/bankaccount/closures.js"></script>
+    <!-- bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
